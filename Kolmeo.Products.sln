@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.WebApi", "Kolmeo.Products.WebApi\Kolmeo.Products.WebApi.csproj", "{F227CB6C-524F-4F0B-AD1D-87336399BA5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.WebApi", "Kolmeo.Products.WebApi\Kolmeo.Products.WebApi.csproj", "{F227CB6C-524F-4F0B-AD1D-87336399BA5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Domain", "Kolmeo.Products.Domain\Kolmeo.Products.Domain.csproj", "{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.Domain", "Kolmeo.Products.Domain\Kolmeo.Products.Domain.csproj", "{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Services", "Kolmeo.Products.Services\Kolmeo.Products.Services.csproj", "{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.Services", "Kolmeo.Products.Services\Kolmeo.Products.Services.csproj", "{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Repositories", "Kolmeo.Products.Repositories\Kolmeo.Products.Repositories.csproj", "{D6FCDA48-B05E-414D-935B-1E5CA040D332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.Repositories", "Kolmeo.Products.Repositories\Kolmeo.Products.Repositories.csproj", "{D6FCDA48-B05E-414D-935B-1E5CA040D332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Bootstrapper", "Kolmeo.Products.Bootstrapper\Kolmeo.Products.Bootstrapper.csproj", "{6861A628-1C51-468A-9D9F-5521F76D2185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.Bootstrapper", "Kolmeo.Products.Bootstrapper\Kolmeo.Products.Bootstrapper.csproj", "{6861A628-1C51-468A-9D9F-5521F76D2185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A56BF0F0-09CF-4321-9587-15855C7122B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{0C278153-2E83-4F84-B743-4035AD126030}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolmeo.Products.WebApi.UnitTests", "Kolmeo.Products.WebApi.UnitTests\Kolmeo.Products.WebApi.UnitTests.csproj", "{454F153E-2027-428D-BE8B-3A00CD7F2E97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +45,21 @@ Global
 		{6861A628-1C51-468A-9D9F-5521F76D2185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6861A628-1C51-468A-9D9F-5521F76D2185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6861A628-1C51-468A-9D9F-5521F76D2185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454F153E-2027-428D-BE8B-3A00CD7F2E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454F153E-2027-428D-BE8B-3A00CD7F2E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454F153E-2027-428D-BE8B-3A00CD7F2E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454F153E-2027-428D-BE8B-3A00CD7F2E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F227CB6C-524F-4F0B-AD1D-87336399BA5C} = {A56BF0F0-09CF-4321-9587-15855C7122B5}
+		{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F} = {A56BF0F0-09CF-4321-9587-15855C7122B5}
+		{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C} = {A56BF0F0-09CF-4321-9587-15855C7122B5}
+		{D6FCDA48-B05E-414D-935B-1E5CA040D332} = {A56BF0F0-09CF-4321-9587-15855C7122B5}
+		{6861A628-1C51-468A-9D9F-5521F76D2185} = {A56BF0F0-09CF-4321-9587-15855C7122B5}
+		{454F153E-2027-428D-BE8B-3A00CD7F2E97} = {0C278153-2E83-4F84-B743-4035AD126030}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1CCE086-91DF-4B93-A2D5-855C0C6437AE}
