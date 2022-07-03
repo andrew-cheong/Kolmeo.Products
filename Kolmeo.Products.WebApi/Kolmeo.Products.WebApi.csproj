@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kolmeo.Products.Bootstrapper\Kolmeo.Products.Bootstrapper.csproj" />
     <ProjectReference Include="..\Kolmeo.Products.Domain\Kolmeo.Products.Domain.csproj" />
+    <ProjectReference Include="..\Kolmeo.Products.Services\Kolmeo.Products.Services.csproj" />
   </ItemGroup>
 
 </Project>

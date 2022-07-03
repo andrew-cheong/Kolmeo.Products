@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.WebApi", "K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Domain", "Kolmeo.Products.Domain\Kolmeo.Products.Domain.csproj", "{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Services", "Kolmeo.Products.Services\Kolmeo.Products.Services.csproj", "{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Repositories", "Kolmeo.Products.Repositories\Kolmeo.Products.Repositories.csproj", "{D6FCDA48-B05E-414D-935B-1E5CA040D332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolmeo.Products.Bootstrapper", "Kolmeo.Products.Bootstrapper\Kolmeo.Products.Bootstrapper.csproj", "{6861A628-1C51-468A-9D9F-5521F76D2185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E900934-FA2A-4FD6-A8E7-F3C2828B1E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB0D40A-1F89-410C-9CE3-0F1C1BC3FC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FCDA48-B05E-414D-935B-1E5CA040D332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FCDA48-B05E-414D-935B-1E5CA040D332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FCDA48-B05E-414D-935B-1E5CA040D332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FCDA48-B05E-414D-935B-1E5CA040D332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6861A628-1C51-468A-9D9F-5521F76D2185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6861A628-1C51-468A-9D9F-5521F76D2185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6861A628-1C51-468A-9D9F-5521F76D2185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6861A628-1C51-468A-9D9F-5521F76D2185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
